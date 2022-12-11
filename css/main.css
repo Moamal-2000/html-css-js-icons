@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   body {
     background-image: linear-gradient(to bottom, #ff3535 33.3%, #287aff 33.3%, #287aff 66.6%, #ffe11c 66.6%, #ffe11c 99.9%);
   }
@@ -38,27 +38,27 @@ body::before {
   height: 100vh;
 }
 
-@media (width < 1280px) {
+@media (max-width: 1280px) {
   .container {
     gap: 13%;
   }
 }
-@media (width < 1200px) {
+@media (max-width: 1200px) {
   .container {
     gap: 12%;
   }
 }
-@media (width < 1080px) {
+@media (max-width: 1080px) {
   .container {
     gap: 9%;
   }
 }
-@media (width < 992px) {
+@media (max-width: 992px) {
   .container {
     gap: 12%;
   }
 }
-@media (width < 768px) {
+@media (max-width: 768px) {
   .container {
     display: grid;
     gap: 102px;
@@ -70,7 +70,7 @@ body::before {
   align-items: center;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .icon {
     flex-direction: row-reverse;
     gap: 40px;
@@ -91,7 +91,7 @@ body::before {
   -o-transition: 0.3s;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .icon .title {
     width: 120px;
   }
@@ -105,7 +105,7 @@ body::before {
   -o-transform: translate(-5px, 5px);
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .icon .title {
     font-size: 50px;
   }
@@ -127,13 +127,13 @@ body::before {
   -o-transition: 0.3s;
 }
 
-@media (width < 992px) {
+@media (max-width: 992px) {
   .structure {
     width: 180px;
     height: 200px;
   }
 }
-@media (width < 768px) {
+@media (max-width: 768px) {
   .structure {
     width: 120px;
     height: 140px;
@@ -161,7 +161,7 @@ body::before {
   -o-transition: 0.3s;
 }
 
-@media (width < 768px) {
+@media (max-width: 768px) {
   .structure::before {
     transform: translateY(-50%) scale(1.12);
     -webkit-transform: translateY(-50%) scale(1.12);
@@ -187,7 +187,7 @@ body::before {
   height: 200px;
 }
 
-@media (width < 992px) {
+@media (max-width: 992px) {
   .structure .number-five,
 .structure .number-three,
 .structure .letters-container {
@@ -198,7 +198,7 @@ body::before {
     -o-transform: translate(-50%, -50%) scale(0.66);
   }
 }
-@media (width < 768px) {
+@media (max-width: 768px) {
   .structure .number-five,
 .structure .number-three,
 .structure .letters-container {
